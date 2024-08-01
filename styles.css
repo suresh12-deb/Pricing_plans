@@ -8,7 +8,7 @@ body {
     margin: 0px;
 }
 
-@media (min-width:768px) {
+@media (min-width:1200px) {
     .bg-container{
     background-color: #000000;
     min-height: 100vh;
