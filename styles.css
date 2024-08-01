@@ -9,14 +9,15 @@ body {
 }
 
 @media (min-width:1200px) {
-    .bg-container{
-    background-color: #000000;
-    min-height: 100vh;
-    display:flex;
-    justify-content: center;
-    align-items: center;
-   
-}
+    .bg-container {
+        background-color: #000000;
+        min-height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
     .container {
         background-color: black;
         background-size: cover;
@@ -39,32 +40,32 @@ body {
 
     .containers {
         display: flex;
+        flex-wrap: wrap;
     }
 
     .container-1 {
-        width: 30vw;
+        width: 280px;
         background-color: #2c353d;
-        height: 70vh;
         display: flex;
         flex-direction: column;
         padding: 20px;
         margin: 30px;
         border-radius: 20px;
-        flex-wrap: wrap;
+
     }
 
     .img-1 {
         display: flex;
-        height: 6vh;
+        width: 40px;
+        height: 40px;
         padding: 10px;
         align-self: flex-end;
-        margin: 10px;
     }
 
     .amount {
         color: #ffffff;
         margin-left: 20px;
-        font-size: 50px;
+        font-size: 35px;
 
     }
 
@@ -83,18 +84,17 @@ body {
 
     .lists {
         color: #e2e8f0;
-        font-size: 20px;
+        font-size: 16px;
         flex-grow: 1;
     }
 
     .list-1,
     .list-2,
     .list-3 {
-        padding: 10px;
+        padding: 5px;
     }
 
-    .btn {
-        width: 22vw;
+    .btn {;
         display: flex;
         align-self: center;
         /*  height: 30vh; */
@@ -103,11 +103,10 @@ body {
         text-align: center;
         padding: 20px;
         border-radius: 10px;
-        margin-top: 45px;
+       
     }
 
     .btn-2 {
-        width: 22vw;
         display: flex;
         align-self: center;
         /* height: 200px; */
